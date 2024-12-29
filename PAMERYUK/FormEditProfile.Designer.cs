@@ -34,7 +34,7 @@
             this.textBoxUsername = new System.Windows.Forms.TextBox();
             this.textBoxEmail = new System.Windows.Forms.TextBox();
             this.textBoPassword = new System.Windows.Forms.TextBox();
-            this.buttonLogin = new System.Windows.Forms.Button();
+            this.buttonSave = new System.Windows.Forms.Button();
             this.buttonRegister = new System.Windows.Forms.Button();
             this.pictureBoxProfilePict = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxProfilePict)).BeginInit();
@@ -88,18 +88,18 @@
             this.textBoPassword.Size = new System.Drawing.Size(180, 27);
             this.textBoPassword.TabIndex = 6;
             // 
-            // buttonLogin
+            // buttonSave
             // 
-            this.buttonLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
-            this.buttonLogin.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonLogin.Font = new System.Drawing.Font("Arial Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonLogin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(237)))), ((int)(((byte)(206)))));
-            this.buttonLogin.Location = new System.Drawing.Point(166, 397);
-            this.buttonLogin.Name = "buttonLogin";
-            this.buttonLogin.Size = new System.Drawing.Size(565, 38);
-            this.buttonLogin.TabIndex = 7;
-            this.buttonLogin.Text = "S A V E";
-            this.buttonLogin.UseVisualStyleBackColor = false;
+            this.buttonSave.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
+            this.buttonSave.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonSave.Font = new System.Drawing.Font("Arial Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonSave.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(237)))), ((int)(((byte)(206)))));
+            this.buttonSave.Location = new System.Drawing.Point(166, 397);
+            this.buttonSave.Name = "buttonSave";
+            this.buttonSave.Size = new System.Drawing.Size(565, 38);
+            this.buttonSave.TabIndex = 7;
+            this.buttonSave.Text = "S A V E";
+            this.buttonSave.UseVisualStyleBackColor = false;
             // 
             // buttonRegister
             // 
@@ -134,7 +134,7 @@
             this.ClientSize = new System.Drawing.Size(900, 540);
             this.Controls.Add(this.pictureBoxProfilePict);
             this.Controls.Add(this.buttonRegister);
-            this.Controls.Add(this.buttonLogin);
+            this.Controls.Add(this.buttonSave);
             this.Controls.Add(this.textBoPassword);
             this.Controls.Add(this.textBoxEmail);
             this.Controls.Add(this.textBoxUsername);
@@ -157,7 +157,7 @@
         private System.Windows.Forms.TextBox textBoxUsername;
         private System.Windows.Forms.TextBox textBoxEmail;
         private System.Windows.Forms.TextBox textBoPassword;
-        private System.Windows.Forms.Button buttonLogin;
+        private System.Windows.Forms.Button buttonSave;
         private System.Windows.Forms.Button buttonRegister;
         private System.Windows.Forms.PictureBox pictureBoxProfilePict;
     }

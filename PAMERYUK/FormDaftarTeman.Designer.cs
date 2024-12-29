@@ -28,21 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridViewSearch = new System.Windows.Forms.DataGridView();
+            this.dataGridViewFriend = new System.Windows.Forms.DataGridView();
             this.textBoxSearch = new System.Windows.Forms.TextBox();
             this.comboBoxFilter = new System.Windows.Forms.ComboBox();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewSearch)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewFriend)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridViewSearch
+            // dataGridViewFriend
             // 
-            this.dataGridViewSearch.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewSearch.Location = new System.Drawing.Point(52, 209);
-            this.dataGridViewSearch.Name = "dataGridViewSearch";
-            this.dataGridViewSearch.RowHeadersWidth = 51;
-            this.dataGridViewSearch.RowTemplate.Height = 24;
-            this.dataGridViewSearch.Size = new System.Drawing.Size(795, 279);
-            this.dataGridViewSearch.TabIndex = 1;
+            this.dataGridViewFriend.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewFriend.Location = new System.Drawing.Point(52, 209);
+            this.dataGridViewFriend.Name = "dataGridViewFriend";
+            this.dataGridViewFriend.RowHeadersWidth = 51;
+            this.dataGridViewFriend.RowTemplate.Height = 24;
+            this.dataGridViewFriend.Size = new System.Drawing.Size(795, 279);
+            this.dataGridViewFriend.TabIndex = 1;
             // 
             // textBoxSearch
             // 
@@ -70,10 +70,10 @@
             this.ClientSize = new System.Drawing.Size(900, 540);
             this.Controls.Add(this.comboBoxFilter);
             this.Controls.Add(this.textBoxSearch);
-            this.Controls.Add(this.dataGridViewSearch);
+            this.Controls.Add(this.dataGridViewFriend);
             this.Name = "FormDaftarTeman";
             this.Text = "FormDaftarTeman";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewSearch)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewFriend)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -81,7 +81,7 @@
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridViewSearch;
+        private System.Windows.Forms.DataGridView dataGridViewFriend;
         private System.Windows.Forms.TextBox textBoxSearch;
         private System.Windows.Forms.ComboBox comboBoxFilter;
     }

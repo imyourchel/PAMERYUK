@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             this.textBoxSearch = new System.Windows.Forms.TextBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
+            this.dataGridViewSearch = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTag = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewSearch)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewTag)).BeginInit();
             this.SuspendLayout();
             // 
             // textBoxSearch
@@ -43,25 +43,25 @@
             this.textBoxSearch.Size = new System.Drawing.Size(176, 27);
             this.textBoxSearch.TabIndex = 2;
             // 
-            // dataGridView1
+            // dataGridViewSearch
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(109, 206);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(264, 280);
-            this.dataGridView1.TabIndex = 3;
+            this.dataGridViewSearch.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewSearch.Location = new System.Drawing.Point(109, 206);
+            this.dataGridViewSearch.Name = "dataGridViewSearch";
+            this.dataGridViewSearch.RowHeadersWidth = 51;
+            this.dataGridViewSearch.RowTemplate.Height = 24;
+            this.dataGridViewSearch.Size = new System.Drawing.Size(264, 280);
+            this.dataGridViewSearch.TabIndex = 3;
             // 
-            // dataGridView2
+            // dataGridViewTag
             // 
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Location = new System.Drawing.Point(537, 206);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.RowHeadersWidth = 51;
-            this.dataGridView2.RowTemplate.Height = 24;
-            this.dataGridView2.Size = new System.Drawing.Size(264, 280);
-            this.dataGridView2.TabIndex = 4;
+            this.dataGridViewTag.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewTag.Location = new System.Drawing.Point(537, 206);
+            this.dataGridViewTag.Name = "dataGridViewTag";
+            this.dataGridViewTag.RowHeadersWidth = 51;
+            this.dataGridViewTag.RowTemplate.Height = 24;
+            this.dataGridViewTag.Size = new System.Drawing.Size(264, 280);
+            this.dataGridViewTag.TabIndex = 4;
             // 
             // FormTag
             // 
@@ -70,14 +70,14 @@
             this.BackgroundImage = global::PAMERYUK.Properties.Resources.TAG;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(900, 540);
-            this.Controls.Add(this.dataGridView2);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dataGridViewTag);
+            this.Controls.Add(this.dataGridViewSearch);
             this.Controls.Add(this.textBoxSearch);
             this.DoubleBuffered = true;
             this.Name = "FormTag";
             this.Text = "FormTag";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewSearch)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewTag)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -86,7 +86,7 @@
         #endregion
 
         private System.Windows.Forms.TextBox textBoxSearch;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridView dataGridView2;
+        private System.Windows.Forms.DataGridView dataGridViewSearch;
+        private System.Windows.Forms.DataGridView dataGridViewTag;
     }
 }

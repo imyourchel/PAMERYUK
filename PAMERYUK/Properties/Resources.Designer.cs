@@ -73,6 +73,16 @@ namespace PAMERYUK.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Chat {
+            get {
+                object obj = ResourceManager.GetObject("Chat", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Daftar_Teman {
             get {
                 object obj = ResourceManager.GetObject("Daftar_Teman", resourceCulture);
@@ -136,6 +146,16 @@ namespace PAMERYUK.Properties {
         internal static System.Drawing.Bitmap Notifikasi {
             get {
                 object obj = ResourceManager.GetObject("Notifikasi", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap POSTINGAN_ORG_LAIN {
+            get {
+                object obj = ResourceManager.GetObject("POSTINGAN_ORG_LAIN", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

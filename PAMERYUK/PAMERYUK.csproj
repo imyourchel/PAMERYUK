@@ -51,6 +51,12 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>db.settings</DependentUpon>
     </Compile>
+    <Compile Include="FormChat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormChat.Designer.cs">
+      <DependentUpon>FormChat.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormDaftarBlock.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -87,6 +93,12 @@
     <Compile Include="FormNotifikasi.Designer.cs">
       <DependentUpon>FormNotifikasi.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormOtherPost.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormOtherPost.Designer.cs">
+      <DependentUpon>FormOtherPost.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormRegister.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -113,6 +125,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormChat.resx">
+      <DependentUpon>FormChat.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormDaftarBlock.resx">
       <DependentUpon>FormDaftarBlock.cs</DependentUpon>
     </EmbeddedResource>
@@ -130,6 +145,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormNotifikasi.resx">
       <DependentUpon>FormNotifikasi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormOtherPost.resx">
+      <DependentUpon>FormOtherPost.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormRegister.resx">
       <DependentUpon>FormRegister.cs</DependentUpon>
@@ -211,6 +229,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Notifikasi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\POSTINGAN ORG LAIN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chat.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.dataGridViewPertemanan = new System.Windows.Forms.DataGridView();
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.listBoxNotifikasi = new System.Windows.Forms.ListBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewPertemanan)).BeginInit();
             this.SuspendLayout();
             // 
@@ -43,14 +43,14 @@
             this.dataGridViewPertemanan.Size = new System.Drawing.Size(297, 340);
             this.dataGridViewPertemanan.TabIndex = 2;
             // 
-            // listBox1
+            // listBoxNotifikasi
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 16;
-            this.listBox1.Location = new System.Drawing.Point(400, 157);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(448, 340);
-            this.listBox1.TabIndex = 3;
+            this.listBoxNotifikasi.FormattingEnabled = true;
+            this.listBoxNotifikasi.ItemHeight = 16;
+            this.listBoxNotifikasi.Location = new System.Drawing.Point(400, 157);
+            this.listBoxNotifikasi.Name = "listBoxNotifikasi";
+            this.listBoxNotifikasi.Size = new System.Drawing.Size(448, 340);
+            this.listBoxNotifikasi.TabIndex = 3;
             // 
             // FormNotifikasi
             // 
@@ -59,7 +59,7 @@
             this.BackgroundImage = global::PAMERYUK.Properties.Resources.Notifikasi;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(900, 540);
-            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.listBoxNotifikasi);
             this.Controls.Add(this.dataGridViewPertemanan);
             this.Name = "FormNotifikasi";
             this.Text = "FormNotifikasi";
@@ -71,6 +71,6 @@
         #endregion
 
         private System.Windows.Forms.DataGridView dataGridViewPertemanan;
-        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.ListBox listBoxNotifikasi;
     }
 }

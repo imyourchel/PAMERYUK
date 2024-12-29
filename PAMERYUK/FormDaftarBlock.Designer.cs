@@ -28,20 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridViewSearch = new System.Windows.Forms.DataGridView();
+            this.dataGridViewBlock = new System.Windows.Forms.DataGridView();
             this.textBoxSearch = new System.Windows.Forms.TextBox();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewSearch)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewBlock)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridViewSearch
+            // dataGridViewBlock
             // 
-            this.dataGridViewSearch.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewSearch.Location = new System.Drawing.Point(52, 210);
-            this.dataGridViewSearch.Name = "dataGridViewSearch";
-            this.dataGridViewSearch.RowHeadersWidth = 51;
-            this.dataGridViewSearch.RowTemplate.Height = 24;
-            this.dataGridViewSearch.Size = new System.Drawing.Size(795, 279);
-            this.dataGridViewSearch.TabIndex = 2;
+            this.dataGridViewBlock.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewBlock.Location = new System.Drawing.Point(52, 210);
+            this.dataGridViewBlock.Name = "dataGridViewBlock";
+            this.dataGridViewBlock.RowHeadersWidth = 51;
+            this.dataGridViewBlock.RowTemplate.Height = 24;
+            this.dataGridViewBlock.Size = new System.Drawing.Size(795, 279);
+            this.dataGridViewBlock.TabIndex = 2;
             // 
             // textBoxSearch
             // 
@@ -59,10 +59,10 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(900, 540);
             this.Controls.Add(this.textBoxSearch);
-            this.Controls.Add(this.dataGridViewSearch);
+            this.Controls.Add(this.dataGridViewBlock);
             this.Name = "FormDaftarBlock";
             this.Text = "FormDaftarBlock";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewSearch)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewBlock)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -70,7 +70,7 @@
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridViewSearch;
+        private System.Windows.Forms.DataGridView dataGridViewBlock;
         private System.Windows.Forms.TextBox textBoxSearch;
     }
 }
