@@ -99,6 +99,24 @@
     <Compile Include="FormOtherPost.Designer.cs">
       <DependentUpon>FormOtherPost.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormOtherUserPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormOtherUserPage.Designer.cs">
+      <DependentUpon>FormOtherUserPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormProfile.Designer.cs">
+      <DependentUpon>FormProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormProfileBlock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormProfileBlock.Designer.cs">
+      <DependentUpon>FormProfileBlock.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormRegister.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -116,6 +134,12 @@
     </Compile>
     <Compile Include="FormTag.Designer.cs">
       <DependentUpon>FormTag.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormUpload.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUpload.Designer.cs">
+      <DependentUpon>FormUpload.cs</DependentUpon>
     </Compile>
     <Compile Include="FormUtama.cs">
       <SubType>Form</SubType>
@@ -149,6 +173,15 @@
     <EmbeddedResource Include="FormOtherPost.resx">
       <DependentUpon>FormOtherPost.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormOtherUserPage.resx">
+      <DependentUpon>FormOtherUserPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormProfile.resx">
+      <DependentUpon>FormProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormProfileBlock.resx">
+      <DependentUpon>FormProfileBlock.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormRegister.resx">
       <DependentUpon>FormRegister.cs</DependentUpon>
     </EmbeddedResource>
@@ -157,6 +190,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormTag.resx">
       <DependentUpon>FormTag.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormUpload.resx">
+      <DependentUpon>FormUpload.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormUtama.resx">
       <DependentUpon>FormUtama.cs</DependentUpon>
@@ -235,6 +271,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Chat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Other User Page.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Other User Page kosong.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PROFILE Kosong.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PROFILE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Upload.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
